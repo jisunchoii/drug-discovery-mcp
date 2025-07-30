@@ -9,6 +9,8 @@
 ## 주요 기능
 
 - 🔬 ChEMBL 데이터베이스 연동을 통한 화합물 정보 검색
+- 🧪 UniProt 데이터베이스 연동을 통한 단백질 정보 검색
+- 🔬 PDB 데이터베이스 연동을 통한 단백질 3D 구조 정보 검색
 - 🌐 Tavily API를 통한 웹 검색 기능
 - 📊 Streamlit 기반 웹 인터페이스
 
@@ -72,7 +74,9 @@ drug-discovery-mcp/
 │   ├── launcher.py               # 애플리케이션 런처
 │   ├── info.py                   # 정보 관리 모듈
 │   ├── mcp_server_tavily.py      # Tavily MCP 서버
-│   └── ChEMBL-MCP-Server/        # ChEMBL MCP 서버
+│   ├── ChEMBL-MCP-Server/        # ChEMBL MCP 서버
+│   ├── UniProt-MCP-Server/       # UniProt MCP 서버
+│   └── PDB-MCP-Server/           # PDB MCP 서버
 ├── requirements.txt              # Python 의존성
 ├── .env.example                  # 환경 변수 템플릿
 ├── .gitignore                    # Git 무시 파일
